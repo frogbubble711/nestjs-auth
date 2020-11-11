@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "rootroot",
+  "database": "fleet-mgmt",
+  "entities": ["src/**/*.entity.ts"],
+  "migrations": ["src/migrations/**/*.ts"],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
